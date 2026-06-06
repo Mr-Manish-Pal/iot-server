@@ -1,0 +1,23 @@
+## 🔌 Wiring Connections
+
+### ESP32 Sensor Node
+
+#### MQ135 Sensor
+
+| MQ135 Pin | ESP32 Pin |
+|------------|------------|
+| VCC | 3.3V |
+| GND | GND |
+| AO | GPIO32 |
+
+---
+
+#### IR Sensor
+
+| IR Sensor Pin | ESP32 Pin |
+|---------------|------------|
+| VCC | 3.3V |
+| GND | GND |
+| OUT | GPIO18 |
+
+---
