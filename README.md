@@ -1,175 +1,213 @@
-# 🚀 ESP32 Wireless Sensor Monitoring System
+<div align="center">
 
-<p align="center">
-  <img src="images/dashboard.png" width="850">
-</p>
+# 🌐 ESP32 Distributed Wireless Monitoring System
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ESP32-IoT-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/WiFi-Enabled-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/HTTP-Communication-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/PlatformIO-Embedded-red?style=for-the-badge">
-</p>
+### Real-Time Sensor Acquisition, Wireless Communication & Embedded Web Dashboard using Dual ESP32 Architecture
 
-<p align="center">
-Real-Time Wireless Sensor Monitoring using Dual ESP32 Architecture
-</p>
+<img src="images/banner.png" width="100%">
 
----
+![ESP32](https://img.shields.io/badge/ESP32-Dual%20Node-red?style=for-the-badge)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-Embedded-orange?style=for-the-badge)
+![WiFi](https://img.shields.io/badge/WiFi-Connected-blue?style=for-the-badge)
+![HTTP](https://img.shields.io/badge/HTTP-Client%20Server-green?style=for-the-badge)
+![IoT](https://img.shields.io/badge/IoT-Real%20Time-success?style=for-the-badge)
 
-## 🎯 Project Highlights
+### 🚀 Building a Complete Embedded IoT System Using Dual ESP32 Boards
 
-✅ Dual ESP32 Client-Server Architecture
-
-✅ Real-Time Sensor Monitoring
-
-✅ HTTP-Based Wireless Communication
-
-✅ Web Dashboard Hosting on ESP32
-
-✅ Air Quality Monitoring using MQ135
-
-✅ Obstacle Detection using IR Sensor
-
-✅ Scalable IoT Infrastructure
+</div>
 
 ---
 
-## 🏆 Why This Project Matters
+## 📖 Project Overview
 
-This project demonstrates a complete embedded IoT workflow:
+This project implements a complete wireless monitoring system using two ESP32 development boards operating in a client-server architecture.
 
-Sensor Acquisition ➜ Data Processing ➜ Wireless Communication ➜ Web Server ➜ Real-Time Dashboard
+The first ESP32 functions as an intelligent sensor node that continuously acquires environmental data from connected sensors and transmits it wirelessly over Wi-Fi.
 
-Unlike basic ESP32 projects, this implementation follows an actual client-server architecture commonly used in industrial IoT systems.
+The second ESP32 acts as an embedded web server responsible for receiving, processing, and visualizing sensor data through a real-time browser-based dashboard.
 
----
-
-## 📸 System Architecture
-
-```text
-┌─────────────────────────┐
-│      Sensor Node        │
-│       ESP32 #1          │
-├─────────────────────────┤
-│ MQ135 Air Sensor        │
-│ IR Obstacle Sensor      │
-└──────────┬──────────────┘
-           │
-           │ HTTP Requests
-           ▼
-┌─────────────────────────┐
-│      Server Node        │
-│       ESP32 #2          │
-├─────────────────────────┤
-│ Embedded Web Server     │
-│ Dashboard Generator     │
-└──────────┬──────────────┘
-           │
-           ▼
-┌─────────────────────────┐
-│ Browser Dashboard       │
-│ Laptop / Mobile         │
-└─────────────────────────┘
-```
+Unlike traditional beginner projects that simply display sensor values on a serial monitor, this project demonstrates how modern IoT systems collect, transfer, process, and visualize data across a distributed embedded network.
 
 ---
 
-## 🎥 Live Demonstration
-
-<p align="center">
-  <img src="images/demo.gif" width="850">
-</p>
-
----
-
-## 🛠 Hardware Stack
-
-| Component | Purpose |
-|------------|------------|
-| ESP32 #1 | Sensor Node |
-| ESP32 #2 | Web Server |
-| MQ135 | Air Quality Monitoring |
-| IR Sensor | Object Detection |
-| WiFi Network | Communication Medium |
-
----
-
-## ⚡ Features
-
-### Sensor Node
-- Reads MQ135 values
-- Detects objects using IR sensor
-- Sends data wirelessly
-
-### Server Node
-- Receives HTTP requests
-- Stores latest sensor state
-- Hosts dashboard
-
-### Dashboard
-- Live sensor values
-- Auto-refresh
-- Network accessible
-- Mobile friendly
-
----
-
-## 📊 Example Dashboard
-
-```text
-ESP32 SENSOR SERVER
-
-IR SENSOR
-1
-
-MQ135 VALUE
-3152
-
-LAST UPDATE
-0 sec
-```
-
----
-
-## 🧠 Embedded Concepts Used
-
-- GPIO
-- ADC
-- WiFi Networking
-- HTTP Client
-- HTTP Server
-- Sensor Interfacing
-- Client-Server Architecture
-- Embedded Web Development
-- IoT System Design
-
----
-
-## 🚀 Future Upgrades
-
-- MQTT
-- ESP-NOW
-- Cloud Integration
-- Data Logging
-- Grafana Dashboard
-- Mobile App
-- Telegram Alerts
-- Multiple Sensor Nodes
-
----
 
 ## 👨‍💻 Author
 
-### Manish Pal
+# Manish Pal
 
-Embedded Systems Engineer (Learning Journey)
+### Embedded Systems • IoT • ESP32 • STM32
 
-Focused on:
+Passionate about building real-world embedded systems that combine hardware, networking, and software into complete engineering solutions.
+
+Currently Exploring:
+
 - ESP32
 - STM32
 - Embedded C/C++
+- Communication Protocols
 - IoT Systems
-- Industrial Communication Protocols
+- Industrial Automation
 
-⭐ If you like this project, give it a star.
+## 🎯 Why This Project Matters
+
+Sensor → Data Acquisition
+       → Wireless Communication
+       → Embedded Web Server
+       → Live Dashboard
+       → Real-Time Monitoring
+```
+
+ ### This design principles are used in:
+
+- Industrial IoT Systems
+- Smart Factory Monitoring
+- Building Automation
+- Environmental Monitoring Networks
+- Edge Computing Applications
+- Remote Sensor Platforms
+
+
+
+
+## 🌐 Communication Flow
+
+### Step 1
+ESP32 Sensor Node reads sensor values.
+
+### Step 2
+Sensor data is packaged into an HTTP GET request.
+
+### Step 3
+Data is transmitted wirelessly through Wi-Fi.
+
+### Step 4
+ESP32 Server receives and processes incoming data.
+
+### Step 5
+Dashboard values are updated instantly.
+
+### Step 6
+Users can monitor data from any device connected to the network.
+
+Example Request:
+
+```http
+http://SERVER_IP/update?ir=1&mq=3152
+```
+
+
+## 🧠 Embedded Concepts Demonstrated
+
+### Microcontroller Programming
+- ESP32 Development
+- Embedded C++
+- PlatformIO Workflow
+
+### Sensor Interfacing
+- Analog Data Acquisition
+- Digital Signal Processing
+- Real-Time Monitoring
+
+### Networking
+- Wi-Fi Communication
+- TCP/IP Networking
+- HTTP Protocol
+- Client-Server Architecture
+
+### IoT Development
+- Wireless Sensor Networks
+- Embedded Web Servers
+- Real-Time Dashboards
+- Edge Device Communication
+
+---
+
+## 🛠 Technology Stack
+
+### Hardware
+
+- ESP32 Development Board
+- MQ135 Air Quality Sensor
+- IR Obstacle Detection Sensor
+
+### Software
+
+- PlatformIO
+- Arduino Framework
+- Embedded C++
+- HTML
+- CSS
+- HTTP Protocol
+
+---
+
+
+## 📈 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+✔ Embedded Systems Development
+
+✔ ESP32 Firmware Engineering
+
+✔ Sensor Interfacing
+
+✔ Analog & Digital Inputs
+
+✔ Wireless Communication
+
+✔ HTTP Client Development
+
+✔ HTTP Server Development
+
+✔ Embedded Networking
+
+✔ Real-Time Monitoring
+
+✔ IoT System Design
+
+✔ Client-Server Architecture
+
+✔ PlatformIO Development Workflow
+
+
+## 🎥 Demonstration
+
+### Add the Following Assets
+
+- 📸 Circuit Diagram
+- 📸 Hardware Setup Photos
+- 📸 Dashboard Screenshot
+- 🎥 Demo Video
+- 🎞 GIF Demonstration
+
+---
+
+---
+
+## 🏆 Learning Outcomes
+
+By building this project, you gain hands-on experience in:
+
+- ESP32 Development
+- Sensor Integration
+- Embedded Networking
+- HTTP Communication
+- Web Server Implementation
+- Real-Time Monitoring Systems
+- IoT Architecture Design
+- Wireless Data Transfer
+- Dashboard Development
+
+---
+
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+Building practical embedded systems, one project at a time 🚀
+
+</div>
