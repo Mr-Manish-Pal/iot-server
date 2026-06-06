@@ -1,0 +1,21 @@
+
+## 📦 Hardware Requirements
+
+### Sensor Node
+
+| Component | Quantity |
+|------------|------------|
+| ESP32 Development Board | 1 |
+| MQ135 Gas Sensor | 1 |
+| IR Obstacle Sensor | 1 |
+| Breadboard | 1 |
+| Jumper Wires | As Required |
+
+### Server Node
+
+| Component | Quantity |
+|------------|------------|
+| ESP32 Development Board | 1 |
+| USB Cable | 1 |
+
+---
