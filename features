@@ -1,0 +1,28 @@
+## ⚡ Key Features
+
+### 🔹 Sensor Node (ESP32 #1)
+
+- Real-time environmental sensing
+- MQ135 air quality monitoring
+- IR obstacle detection
+- Wi-Fi communication
+- HTTP-based data transmission
+- Lightweight and efficient operation
+
+### 🔹 Server Node (ESP32 #2)
+
+- Embedded web server
+- Real-time sensor data reception
+- Dynamic webpage generation
+- Local network accessibility
+- Browser-based monitoring
+
+### 🔹 Dashboard
+
+- Live sensor visualization
+- Auto-refreshing interface
+- Mobile-friendly design
+- No cloud dependency
+- Real-time updates
+
+---
