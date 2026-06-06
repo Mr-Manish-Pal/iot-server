@@ -1,0 +1,40 @@
+## 🏗 System Architecture
+
+```text
+┌───────────────────────────────────────┐
+│              SENSOR NODE              │
+│               ESP32 #1                │
+├───────────────────────────────────────┤
+│                                       │
+│  MQ135 Air Quality Sensor             │
+│  IR Obstacle Detection Sensor         │
+│                                       │
+└─────────────────┬─────────────────────┘
+                  │
+                  │ HTTP Request
+                  │
+                  ▼
+
+┌───────────────────────────────────────┐
+│              SERVER NODE              │
+│               ESP32 #2                │
+├───────────────────────────────────────┤
+│                                       │
+│ Embedded HTTP Server                  │
+│ Data Processing Layer                 │
+│ Live Dashboard Generator              │
+│                                       │
+└─────────────────┬─────────────────────┘
+                  │
+                  ▼
+
+┌───────────────────────────────────────┐
+│         Laptop / Smartphone           │
+├───────────────────────────────────────┤
+│                                       │
+│ Live Monitoring Dashboard             │
+│ Real-Time Sensor Visualization        │
+│ Network Accessible Interface          │
+│                                       │
+└───────────────────────────────────────┘
+```
