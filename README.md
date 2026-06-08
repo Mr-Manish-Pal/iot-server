@@ -4,7 +4,6 @@
 
 ### Real-Time Sensor Acquisition, Wireless Communication & Embedded Web Dashboard using Dual ESP32 Architecture
 
-<img src="images/banner.png" width="100%">
 
 ![ESP32](https://img.shields.io/badge/ESP32-Dual%20Node-red?style=for-the-badge)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-Embedded-orange?style=for-the-badge)
@@ -25,6 +24,7 @@ Watch the complete project demonstration on YouTube:
 [![ESP32 IoT Server Project](https://img.youtube.com/vi/QJ7dxQKIcdE/maxresdefault.jpg)](https://youtu.be/QJ7dxQKIcdE)
 
 🔗 **YouTube Video:** https://youtu.be/QJ7dxQKIcdE
+
 
 ## 📖 Project Overview
 
@@ -179,20 +179,6 @@ This project demonstrates practical experience in:
 ✔ PlatformIO Development Workflow
 
 
-## 🎥 Demonstration
-
-### Add the Following Assets
-
-- 📸 Circuit Diagram
-- 📸 Hardware Setup Photos
-- 📸 Dashboard Screenshot
-- 🎥 Demo Video
-- 🎞 GIF Demonstration
-
----
-
----
-
 ## 🏆 Learning Outcomes
 
 By building this project, you gain hands-on experience in:
@@ -207,10 +193,6 @@ By building this project, you gain hands-on experience in:
 - Wireless Data Transfer
 - Dashboard Development
 
----
-
-
----
 
 <div align="center">
 
