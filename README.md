@@ -18,6 +18,14 @@
 
 ---
 
+## 🎥 Project Demo
+
+Watch the complete project demonstration on YouTube:
+
+[![ESP32 IoT Server Project](https://img.youtube.com/vi/QJ7dxQKIcdE/maxresdefault.jpg)](https://youtu.be/QJ7dxQKIcdE)
+
+🔗 **YouTube Video:** https://youtu.be/QJ7dxQKIcdE
+
 ## 📖 Project Overview
 
 This project implements a complete wireless monitoring system using two ESP32 development boards operating in a client-server architecture.
